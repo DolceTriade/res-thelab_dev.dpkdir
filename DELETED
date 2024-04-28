@@ -1,0 +1,3 @@
+res-buildables models/buildables/arm/screen_d.crn
+res-weapons models/weapons/chaingun/chaingun_d.crn
+res-weapons models/weapons/chaingun/chaingun_barrel.md3
