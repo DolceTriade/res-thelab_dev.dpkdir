@@ -5,7 +5,7 @@ models/weapons/chaingun/backmetal
 	{
 		diffuseMap models/weapons/chaingun/backmetal
 		normalMap models/weapons/chaingun/backmetal_n
-		physicalMap models/weapons/chaingun/backmetal_pbr
+		specularMap models/weapons/chaingun/backmetal_s
 	}
 }
 
@@ -16,7 +16,7 @@ models/weapons/chaingun/metal
 	{
 		diffuseMap models/weapons/chaingun/metal
 		normalMap models/weapons/chaingun/metal_n
-		physicalMap models/weapons/chaingun/metal_pbr
+		specularMap models/weapons/chaingun/metal_s
 	}
 }
 
@@ -27,7 +27,7 @@ models/weapons/chaingun/plastic
 	{
 		diffuseMap models/weapons/chaingun/plastic
 		normalMap models/weapons/chaingun/plastic
-		physicalMap models/weapons/chaingun/plastic_pbr
+		specularMap models/weapons/chaingun/plastic_s
 	}
 }
 
