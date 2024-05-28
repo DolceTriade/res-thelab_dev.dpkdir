@@ -1,3 +1,4 @@
 animations.txt
 source.txt
 *.blend
+README.md
