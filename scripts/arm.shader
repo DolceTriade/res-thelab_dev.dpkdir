@@ -8,11 +8,11 @@ models/buildables/arm/arm
 		specularMap models/buildables/arm/arm_s
 		glowMap models/buildables/arm/arm_a
 	}
-	when unpowered models/buildables/arm/arm_off
-	when destroyed models/buildables/arm/arm_off
+	when unpowered models/buildables/arm/arm_dead
+	when destroyed models/buildables/arm/arm_dead
 }
 
-models/buildables/arm/arm_off
+models/buildables/arm/arm_dead
 {
 	qer_editorImage models/buildables/arm/arm
 	imageMinDimension 256
@@ -36,16 +36,16 @@ models/buildables/arm/screen
 		blendfunc add
 		tcMod scroll 10 -.4
 	}
-	when unpowered models/buildables/arm/screen_off
+	when unpowered models/buildables/arm/screen_dead
 	when destroyed models/buildables/arm/screen_dead
 }
 
-models/buildables/arm/screen_off
+models/buildables/arm/screen_dead
 {
-	qer_editorImage models/buildables/arm/screen_off
+	qer_editorImage models/buildables/arm/screen_dead
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/arm/screen_off
+		diffuseMap models/buildables/arm/screen_dead
 		specularMap models/buildables/arm/screen_s
 	}
 }
