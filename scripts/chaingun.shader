@@ -26,7 +26,7 @@ models/weapons/chaingun/plastic
 	imageMinDimension 128
 	{
 		diffuseMap models/weapons/chaingun/plastic
-		normalMap models/weapons/chaingun/plastic
+		normalMap models/weapons/chaingun/plastic_n
 		specularMap models/weapons/chaingun/plastic_s
 	}
 }
