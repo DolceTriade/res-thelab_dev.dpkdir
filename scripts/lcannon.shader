@@ -1,9 +1,9 @@
 models/weapons/lcannon/lcannon
 {
-	qer_editorImage models/weapons/lcannon/lcannon_d
+	qer_editorImage models/weapons/lcannon/lcannon
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/lcannon/lcannon_d
+		diffuseMap  models/weapons/lcannon/lcannon
 		normalMap models/weapons/lcannon/lcannon_n
 		specularMap models/weapons/lcannon/lcannon_s
 	}
@@ -11,23 +11,12 @@ models/weapons/lcannon/lcannon
 
 models/weapons/lcannon/tplcannon
 {
-	qer_editorImage models/weapons/lcannon/tplcannon_d
+	qer_editorImage models/weapons/lcannon/tplcannon
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/lcannon/tplcannon_d
+		diffuseMap  models/weapons/lcannon/tplcannon
 		normalMap   models/weapons/lcannon/tplcannon_n
 		specularMap models/weapons/lcannon/tplcannon_s
-	}
-}
-
-models/weapons/lcannon/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map	models/weapons/lcannon/flash
-		blendfunc GL_ONE GL_ONE
 	}
 }
 
@@ -52,6 +41,16 @@ gfx/weapons/lcannon/bullet
 
 }
 
+gfx/weapons/lcannon/flare
+{
+	cull none
+	imageMinDimension 128
+	{
+		map gfx/weapons/grenade/flare
+		blendfunc add
+	}
+}
+
 gfx/weapons/lcannon/shockwave_haze
 {
 	cull none
@@ -60,8 +59,8 @@ gfx/weapons/lcannon/shockwave_haze
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 5
-		map gfx/weapons/grenade/shockwave_n
+		deformMagnitude 1.7
+		map gfx/weapons/lcannon/shockwave_n
 	}
 }
 
@@ -73,8 +72,8 @@ gfx/weapons/lcannon/shockwave_haze_small
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 3
-		map gfx/weapons/grenade/shockwave_n
+		deformMagnitude 0.4
+		map gfx/weapons/lcannon/shockwave_n
 	}
 }
 
@@ -86,8 +85,8 @@ gfx/weapons/lcannon/fire
 	{
 		map gfx/weapons/lcannon/fire
 		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen vertex
-		alphaGen vertex
+		//rgbGen vertex
+		//alphaGen vertex
 	}
 }
 
