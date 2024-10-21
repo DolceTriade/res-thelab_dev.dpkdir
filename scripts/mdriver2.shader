@@ -20,8 +20,8 @@ gfx/weapons/mdriver/f_railgun2
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 1.7
-		map gfx/weapons/mdriver/f_railgun2
+		deformMagnitude 30
+		map gfx/weapons/mdriver/railwave_n
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen vertex
 		tcMod scroll 1 1
