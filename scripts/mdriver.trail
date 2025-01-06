@@ -13,14 +13,4 @@ trails/weapons/mdriver/tail
 		jitter 0 0
 		jitter 0 0
 	}
-	beam
-	{
-		shader gfx/weapons/mdriver/f_railgun2
-
-		segments 1
-		width 3 3
-		color { 1 1 1 } -
-
-		textureType repeat front 100
-	}
 }

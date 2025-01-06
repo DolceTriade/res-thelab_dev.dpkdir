@@ -8,23 +8,5 @@ gfx/weapons/mdriver/railcore
 		map gfx/weapons/mdriver/railcore
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen vertex
-		tcMod scroll -1 0
-	}
-}
-
-gfx/weapons/mdriver/f_railgun2
-{
-	cull none
-	entityMergable
-	imageMinDimension 128
-	implicitMapGL1 gfx/transparent
-	{
-		stage heathazeMap
-		deformMagnitude 30
-		map gfx/weapons/mdriver/railwave_n
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen vertex
-		tcMod scroll 1 1
-		tcMod rotate 180
 	}
 }
