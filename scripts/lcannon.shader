@@ -24,6 +24,7 @@ gfx/weapons/lcannon/bullet
 {
 	cull disable
 	imageMinDimension 128
+	entityMergable
 	{
 		clampmap gfx/weapons/lcannon/bullet
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -38,7 +39,12 @@ gfx/weapons/lcannon/bullet
 		rgbGen identity
 		tcMod stretch sin 1.0 -0.3 0 0.75
 	}
-
+	{
+		stage heathazeMap
+		deformMagnitude 1.7
+		clampmap gfx/weapons/lcannon/bullet_n
+		tcMod stretch sin 1.0 -1 0 0.75
+	}
 }
 
 gfx/weapons/lcannon/flare
