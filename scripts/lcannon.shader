@@ -41,7 +41,7 @@ gfx/weapons/lcannon/bullet
 	}
 	{
 		stage heathazeMap
-		deformMagnitude 1.7
+		deformMagnitude 0.75
 		clampmap gfx/weapons/lcannon/bullet_n
 		tcMod stretch sin 1.0 -1 0 0.75
 	}
@@ -65,8 +65,8 @@ gfx/weapons/lcannon/shockwave_haze
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 1.7
-		map gfx/weapons/lcannon/shockwave_n
+		deformMagnitude 0.75
+		clampmap gfx/weapons/lcannon/shockwave_n
 	}
 }
 
@@ -78,8 +78,8 @@ gfx/weapons/lcannon/shockwave_haze_small
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 0.4
-		map gfx/weapons/lcannon/shockwave_n
+		deformMagnitude 0.75
+		clampmap gfx/weapons/lcannon/shockwave_n
 	}
 }
 
