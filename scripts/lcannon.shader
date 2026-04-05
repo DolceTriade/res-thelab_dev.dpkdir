@@ -22,9 +22,7 @@ models/weapons/lcannon/tplcannon
 
 gfx/weapons/lcannon/bullet
 {
-	cull disable
 	imageMinDimension 128
-	entityMergable
 	{
 		clampmap gfx/weapons/lcannon/bullet
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -49,7 +47,6 @@ gfx/weapons/lcannon/bullet
 
 gfx/weapons/lcannon/flare
 {
-	cull none
 	imageMinDimension 128
 	{
 		map gfx/weapons/grenade/flare
@@ -59,8 +56,6 @@ gfx/weapons/lcannon/flare
 
 gfx/weapons/lcannon/shockwave_haze
 {
-	cull none
-	entityMergable
 	imageMinDimension 128
 	implicitMapGL1 gfx/transparent
 	{
@@ -72,8 +67,6 @@ gfx/weapons/lcannon/shockwave_haze
 
 gfx/weapons/lcannon/shockwave_haze_small
 {
-	cull none
-	entityMergable
 	imageMinDimension 128
 	implicitMapGL1 gfx/transparent
 	{
@@ -85,8 +78,6 @@ gfx/weapons/lcannon/shockwave_haze_small
 
 gfx/weapons/lcannon/fire
 {
-	cull none
-	entityMergable
 	imageMinDimension 128
 	{
 		map gfx/weapons/lcannon/fire
@@ -98,8 +89,6 @@ gfx/weapons/lcannon/fire
 
 gfx/weapons/lcannon/trail
 {
-	cull none
-	entityMergable
 	imageMinDimension 128
 	{
 		map gfx/weapons/lcannon/trail
