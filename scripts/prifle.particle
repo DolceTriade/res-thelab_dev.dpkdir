@@ -1,0 +1,159 @@
+particles/weapons/prifle/impact
+{
+	ejector
+	{
+		particle
+		{
+			displacement 0 0 0 ~0
+
+			normalDisplacement 3
+
+			velocityType normal //cent //tag
+			velocityDir linear
+			velocityMagnitude 250
+			velocity 0 0 0 ~90
+
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 800
+			acceleration 0 0 -1 0
+
+			radius 0 1 -
+			bounce .5
+
+			lifeTime 500
+
+			childTrailSystem trails/weapons/prifle/impact_blobs
+		}
+
+		count 1~2
+		delay 0
+		period 0 - ~0%
+	}
+
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/prifle/impact
+
+			displacement 0 0 0 ~1.5
+			normalDisplacement 1
+
+			velocityType normal
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 ~110
+
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 0
+			acceleration 0 0 -1 ~10
+
+			radius 0 7 20
+			alpha 0 1 0
+			rotation 0 0 -
+			bounce 0
+
+			lifeTime 150
+		}
+
+		count 1
+		delay 0
+		period 10 - ~0%
+	}
+
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/rifle/smoke
+
+			displacement 0 0 0 ~4
+			normalDisplacement 2~3
+
+			velocityType normal
+			velocityDir linear
+			velocityMagnitude 15~30
+			velocity 0 0 1 0
+
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 20~10
+			acceleration 0 0 1 ~40
+
+			radius 0 2 12~50%
+			alpha 0 .6 0
+			rotation 0 ~360 -
+			bounce 0
+
+			lifeTime 500
+		}
+
+		count 8
+		delay 215
+		period 35 - ~0%
+	}
+}
+
+particles/weapons/prifle/muzzleflash
+{
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/prifle/spiderflash
+
+			displacement 5 0 0 ~0
+
+			parentVelocityFraction 1
+
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 100
+			velocity 1 0 0 0
+
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 0
+			acceleration 0 0 0 0
+
+			radius 0 7 2
+			alpha 0 .4 0
+			rotation 0 ~360 -
+			bounce 0
+
+			lifeTime 60
+		}
+
+		particle
+		{
+			shader sync gfx/weapons/prifle/flash
+
+			displacement 3 0 0 ~0
+
+			parentVelocityFraction 1
+
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 40
+			velocity -1 0 0 0
+
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 0
+			acceleration 0 0 0 0
+
+			radius 0 7 4
+			alpha 0 1 0
+			rotation 0 ~360 -
+			bounce 0
+
+			lifeTime 40
+		}
+
+		count 1
+		delay 0
+		period 0 - ~0%
+	}
+}

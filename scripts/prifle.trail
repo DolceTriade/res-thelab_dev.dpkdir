@@ -1,0 +1,27 @@
+trails/weapons/prifle/missile
+{
+	beam
+	{
+		shader gfx/weapons/prifle/trail
+		segments 2
+		width 2 .4
+		alpha 1 1
+		segmentTime 1
+		fadeOutTime 4
+
+		dynamicLight 25 { .5 .5 .5 }
+	}
+}
+
+trails/weapons/prifle/impact_blobs
+{
+	beam
+	{
+		shader gfx/weapons/prifle/trail
+		segments 8
+		width 2 .4
+		alpha 1 0
+		segmentTime 6
+		fadeOutTime 3
+	}
+}
