@@ -4,7 +4,7 @@ trails/weapons/prifle/missile
 	{
 		shader gfx/weapons/prifle/trail
 		segments 2
-		width 2 .4
+		width 6 .4
 		alpha 1 1
 		segmentTime 1
 		fadeOutTime 4
