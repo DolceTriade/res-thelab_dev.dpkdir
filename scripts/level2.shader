@@ -3,8 +3,16 @@ models/players/level2/level2_adv_body
 	qer_editorImage models/players/level2/level2_adv_body
 	imageMinDimension 128
 	{
-		clampmap models/players/level2/lightning
-		tcMod stretch sin 1.0 -1 0 0.75
+		map models/players/level2/level2_gfx
+		rgbGen identity
+		rgbGen wave sawtooth 0.25 0.75 0 0.6
+		tcMod rotate -6
+	}
+	{
+		map models/players/level2/level2_gfx
+		rgbGen wave sawtooth 0.25 0.75 0 1.25
+		tcMod scroll -0.07 -0.23
+		blendFunc add
 	}
 	{
 		diffuseMap models/players/level2/level2_adv_body
@@ -14,7 +22,6 @@ models/players/level2/level2_adv_body
 		specularExponentMax 128
 		glowMap models/players/level2/level2_body_a
 		blendFunc blend
-		alphaGen identity
 	}
 }
 
@@ -23,8 +30,9 @@ models/players/level2/level2_adv_legs
 	qer_editorImage models/players/level2/level2_adv_legs
 	imageMinDimension 128
 	{
-		clampmap models/players/level2/lightning
-		tcMod stretch sin 1.0 -1 0 0.75
+		map models/players/level2/level2_gfx
+		rgbGen identity
+		tcMod scroll 0.1 -0.3
 	}
 	{
 		diffuseMap models/players/level2/level2_adv_legs
@@ -33,7 +41,6 @@ models/players/level2/level2_adv_legs
 		specularExponentMin 0
 		specularExponentMax 128
 		blendFunc blend
-		alphaGen identity
 	}
 }
 
