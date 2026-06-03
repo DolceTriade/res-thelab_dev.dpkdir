@@ -39,7 +39,7 @@ gfx/weapons/lcannon/bullet
 	}
 	{
 		stage heathazeMap
-		deformMagnitude 0.75
+		deformMagnitude 2.5
 		clampmap gfx/weapons/lcannon/bullet_n
 		tcMod stretch sin 1.0 -1 0 0.75
 	}
