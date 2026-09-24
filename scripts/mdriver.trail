@@ -12,5 +12,7 @@ trails/weapons/mdriver/tail
 
 		jitter 0 0
 		jitter 0 0
+		fadeOutTime 100
+		segmentTime 100
 	}
 }
