@@ -41,7 +41,7 @@ gfx/weapons/lcannon/bullet
 		stage heathazeMap
 		deformMagnitude 2.5
 		clampmap gfx/weapons/lcannon/bullet_n
-		tcMod stretch sin 1.0 -1 0 0.75
+		tcMod stretch sin 0.85 -0.15 0 0.75
 	}
 }
 
