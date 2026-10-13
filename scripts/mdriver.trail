@@ -6,7 +6,7 @@ trails/weapons/mdriver/tail
 
 		segments 1
 		width 5 5
-		color { 0 .845 0 } { 0 .15 0 }
+		color { 1 .365 0 } { 0 .15 0 }
 
 		textureType repeat front 100
 
