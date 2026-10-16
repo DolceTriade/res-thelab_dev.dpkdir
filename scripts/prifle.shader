@@ -26,8 +26,13 @@ models/weapons/prifle/lense
 	imageMinDimension 128
 	{
 		map models/weapons/prifle/lense
-		blendfunc add
 		tcGen environment
+		blend add
+	}
+    {
+		stage heathazeMap
+		deformMagnitude 0.4
+		map gfx/weapons/lcannon/bullet_n
 	}
 }
 
