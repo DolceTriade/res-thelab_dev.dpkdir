@@ -1,6 +1,6 @@
 ui/assets/background/circles1
 {
-    	sort nearest
+    sort nearest
 	cull disable
 
     {
@@ -14,7 +14,7 @@ ui/assets/background/circles1
 
 ui/assets/background/circles2
 {
-    	sort nearest
+    sort nearest
 	cull disable
 
     {
