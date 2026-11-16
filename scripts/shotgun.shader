@@ -5,8 +5,8 @@ models/weapons/shotgun/shotgun
 	{
 		diffuseMap models/weapons/shotgun/WEP_Fist_Skin_05_CH_baseColor
 		normalMap models/weapons/shotgun/WEP_Fist_Skin_05_CH_normal
-//		physicalMap models/weapons/shotgun/WEP_Fist_Skin_05_CH_metallicRoughness
-		specularMap models/weapons/shotgun/WEP_Fist_Skin_05_specularf0
+		// Metallic/roughness: G=roughness, B=metallic (linear data).
+		physicalMap models/weapons/shotgun/shotgun-finish-orm
 	}
 }
 
